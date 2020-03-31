@@ -18,7 +18,7 @@ For our `index` method, instead of grabbing all of the posts, we need to grab po
 `posts_controller.rb`
 
 ```ruby 
-def show
+def index
   @user = User.find(params[:user_id])
 
   render json: @user.posts
@@ -28,7 +28,7 @@ end
 Now if we wanted to, we could easily return the user and their posts using the `include` key word:
 
 ```ruby 
-def show
+def index
   @user = User.find(params[:user_id])
 
   render json: @user, include: :posts
@@ -70,7 +70,7 @@ Let's add another route to get all posts:
 This gives us a new route but it also points to the same controller and method. We will need to add to the `show` method to accommodate both routes. This is where we can leverage the fact that the nested route has a `user_id` param and the other route does not.
 
 ```ruby 
-def show
+def index
   if params[:user_id]
     @user = User.find(params[:user_id])
 
