@@ -10,11 +10,13 @@
 
 ## Objectives
 
-- controller structure
-- Private method abstraction
-- before action
-- Strong params
-- error handling
+After this lesson, we should have knowledge of the following topics:
+
+- Controller Structure
+- Private Method Abstraction
+- `before_action`
+- Strong Params
+- Error Handling
 
 ## Controller Structure
 
