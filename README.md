@@ -1,3 +1,13 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
+
+# Rails Controllers
+
+## setup
+
+1. clone
+2. `bundle`
+3. `rails db:setup`
+
 ## Objectives
 
 - controller structure
