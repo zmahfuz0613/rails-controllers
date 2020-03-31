@@ -52,6 +52,12 @@ This will provide us with the user but the user will have a `posts` key in the j
 }
 ```
 
+## We Do:
+
+let's walk through the rest of the posts_controller.rb methods and update them to include nested functionality.
+
+## Multi-route Controller Methods
+
 This is great for getting all of the posts for a user but doesn't help us if we still want all of the posts. Our `show` method no longer haas the functionality of getting all posts nor do we have a route for that.
 
 Let's add another route to get all posts:
@@ -78,3 +84,5 @@ end
 ```
 
 Now we have functionality for both routes in one controller method.
+
+> Which other methods would we also want this nested functionality?

@@ -96,6 +96,8 @@ For most situations this is not needed but we can leverage this to get some adde
 
 ### We do:
 
+Let's walk through creating a custom method and route that simply finds a random user from the database. We can call the method and route "friend suggestion"
+
 
 ## Private Method Abstraction/Before Action
 
@@ -149,9 +151,9 @@ Example request body:
 
 ```JSON
 {
-  user: {
-    name: "CoolCat88",
-    age: 31
+  "user": {
+    "name": "CoolCat88",
+    "age": 31
   }
 }
 ```
@@ -165,7 +167,7 @@ You can change this default setting if you want to. It can be found in `/config/
 
 </details>
 
-
+> Why is it important to restrict what data the server excepts? What is the point of `.require` if rails will coerce our data into the correct object anyways?
 
 ## Error Handling
 
