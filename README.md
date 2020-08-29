@@ -337,4 +337,4 @@ end
 
 ## Nested associations
 
-feel comfortable with rails controllers? Check out [nestedAssociations.md](nested associations)
+feel comfortable with rails controllers? Check out [nested associations](nestedAssociations.md)
